@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistem Kursus Online yang menyediakan tutor terbaik dengan ketersediaan fleksibel untuk meningkatkan kualitas belajar Anda.">
+    <title>Sistem Kursus Online Ketersediaan Tutor</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome untuk ikon media sosial -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- CSS tambahan untuk warna ikon media sosial -->
+    <style>
+        .social-icons a {
+            margin: 0 10px;
+        }
+
+        .fa-instagram {
+            color: #C13584;
+        }
+
+        .fa-twitter {
+            color: #1DA1F2;
+        }
+
+        .fa-youtube {
+            color: #FF0000;
+        }
+
+        .fa-facebook {
+            color: #1877F2;
+        }
+
+        .fa-github {
+            color: #333;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+
+        /* Button hover effect */
+        .btn-light:hover {
+            background-color: #f8f9fa;
+            border-color: #f8f9fa;
+        }
+
+        /* Header style */
+        header {
+            background: linear-gradient(135deg, #007bff, #0062cc);
+            color: white;
+        }
+
+        /* Section padding */
+        section {
+            padding: 60px 0;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Sistem Kursus Online</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center bg-primary text-white">
+        <h1 class="display-4">Selamat Datang di Sistem Kursus Online</h1>
+        <p class="lead">Ketersediaan Tutor Terbaik untuk Meningkatkan Kualitas Belajar Anda</p>
+        <a href="#services" class="btn btn-light btn-lg">Lihat Layanan Kami</a>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Tentang Kami</h2>
+                    <p>Kami menyediakan platform kursus online yang memungkinkan Anda untuk belajar dengan tutor yang tersedia kapan saja. Sistem kami memudahkan Anda untuk menemukan tutor sesuai dengan kebutuhan belajar Anda.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500" alt="Kursus Online" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3>Pelatihan Online</h3>
+                    <p>Kami menyediakan berbagai pelatihan online di berbagai bidang seperti pemrograman, desain, bahasa, dan banyak lagi.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Tutor Berkualitas</h3>
+                    <p>Tutor kami adalah para ahli di bidangnya, memastikan Anda mendapatkan pembelajaran yang efektif dan efisien.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Fleksibilitas Waktu</h3>
+                    <p>Anda dapat memilih waktu belajar sesuai dengan jadwal Anda, membuat proses belajar lebih fleksibel dan nyaman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Hubungi Kami</h2>
+            <p class="text-center">Jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang layanan kami, jangan ragu untuk menghubungi kami.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Tulis pesan Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer dengan ikon media sosial berwarna -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Sistem Kursus Online. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" class="text-white mx-2">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="text-white mx-2">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="text-white mx-2">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="text-white mx-2">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="text-white mx-2">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS dan Font Awesome JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+           
+
+
+
+
+
+
+
